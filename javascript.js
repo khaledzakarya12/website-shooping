@@ -1,4 +1,3 @@
-
 var swiper = new Swiper(".mySwiper", {
     loop: true,
     effect:"cube",
@@ -49,3 +48,11 @@ var swiper = new Swiper(".mySwiper", {
       icon.classList.add('fa-bars');
     }
   });
+  
+  let cartCount=0;
+  function addtocart(){
+
+ cartCount ++;
+document.getElementById("cartCount").innerText=cartCount
+
+  }
