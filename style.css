@@ -450,7 +450,10 @@ right: 50px;
 
 .hamburger{
 
-display: block;
+display: flex;
+flex-direction: column;
+margin-right: 50px;
+
 
 }
 .hamburger i {
